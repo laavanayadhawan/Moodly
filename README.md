@@ -1,6 +1,12 @@
 Moodly is a web application that displays you a playlist based on your current mood! 
 I have employed a Face and Emotion Recognition API to detect the emotion on the users face. Accordingly, a Spotify playlist is displayed with 10 songs that match your mood! I have also employed Spotify's Authorization code flow to let the user grant access to his/her Spotify account and alllow the user to   listen to the indivdual songs or the complete playlist on his/her own Spotify account. The user can also Register and Login to keep a track of his/her moods in the Mood Log. 
-TO LEARN HOW TO RUN THIS APPLICATION ON YOUR LOCAL MACHINE GO TO DEV_GUIDE.MD
+
+
+*TO LEARN HOW TO RUN THIS APPLICATION ON YOUR LOCAL MACHINE GO TO DEV_GUIDE.md*
+
+
+
+
 This is the landing page of my Website 
 
 
