@@ -1,0 +1,78 @@
+.__Contact {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-image: linear-gradient(135deg, #492cdd 0%, #ad38e2 100%);
+    background-position: 50% 101%, 50% 100%, 0 0;
+    background-size: 101%, cover, auto;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: 50% 100%, 0 0;
+    background-size: 101%, auto;
+    background-repeat: no-repeat, repeat;
+    padding-top: 7rem;
+    position: relative;
+    overflow-x: hidden;
+    overflow: auto;
+  }
+  
+  .__Contact .content {
+    z-index: 100;
+    margin: 5rem;
+    flex-direction: column;
+    height: 100%;
+    color: white !important;
+  }
+  
+  .__Contact .content h1 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  
+.__Contact .content .row {
+    flex-direction: row;
+    align-items: flex-start!important;
+  }
+  
+  .__Contact .content .card-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .__Contact .content .card-custom .icon {
+    border: 1px solid rgba(155, 114, 218, 0.15);
+    border-radius: 50%;
+    background-color: white;
+    padding: .5rem;
+    margin-bottom: 2rem;
+  }
+  .__Contact .arrow{
+    filter: invert(1) brightness(1);
+  }
+  
+  .__Contact .content .card-custom .icon svg{
+    color: #492cdd;
+    font-size: 3rem;
+  }
+  .__Contact .content .card-custom .desc {
+    font-size: 1.2rem;
+    word-wrap: normal;
+    word-spacing: .2rem;
+  }
+  
+
+.__Contact .wave-custom {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background: url("./../../public/br.svg");
+    background-repeat: no-repeat, no-repeat, repeat;
+    bottom: 10px;
+    z-index: 10;
+    background-position: 50% 100%, 0 0;
+    background-size: 101%, auto;
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+  }
+  
